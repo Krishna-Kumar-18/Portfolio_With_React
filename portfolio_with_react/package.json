@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Krishna-Kumar-18.github.io/Portfolio_With_React",
   "name": "portfolio_with_react",
   "private": true,
   "version": "0.0.0",
@@ -7,11 +8,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "frame": "^1.0.0-alpha.2",
     "framer-motion": "^11.3.17",
+    "gh-pages": "^6.1.1",
     "motion": "^10.18.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
