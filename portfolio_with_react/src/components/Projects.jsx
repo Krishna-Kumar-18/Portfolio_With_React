@@ -9,7 +9,7 @@ export default function ProjectsAndAchievements() {
                 initial={{opacity:0, y:-100}}
                 transition={{duration:1.5}}  
                 className="my-20 text-center text-4xl">Projects
-                    <span className="text-neutral-500 ml-4">And Technologies</span>
+                    <span className="text-neutral-500 ml-4">And Achievements</span>
             </motion.h1>
                 <div>
                     {PROJECTS_And_Achievements.map((project, index) => (
